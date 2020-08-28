@@ -1,0 +1,36 @@
+firstName: 'Veronique'
+lastName: 'Leblanc'
+phoneNumber: ''
+address: ''
+email: 'veronique-leblanc@live.ca'
+socialLinks:
+  - icon: 'fa-linkedin-in'
+    name: 'LinkedIn'
+    url: 'https://www.linkedin.com/in/v%C3%A9ronique-leblanc-49440779/'
+
+bio: 'A driven Koala and brilliant marsupial on a quest to find the beaniest beans to snuggle in all the land.'
+
+experienceList:
+  - title: 'Crisis Response Counsellor'
+    company: 'Suicide Action Montréal (SAM)'
+    description: "I save dozens of peoples' lives every. goddamn. day. The scheduling woman doesn't help at all."
+    period: 'January 2017 - Present'
+
+educationList:
+  - institution: 'McGill University'
+    location: 'Montréal, Canada'
+    description: 'B.A. in Psychology'
+    period: '2017-2020'
+
+certifications:
+  - 'Data science'
+  - 'Crisis response'
+
+langTools:
+  - 'French (fluent)'
+
+skills:
+  - "Snuggles"
+  - "Wuggles"
+  - "Nuzzles"
+  - "Wuzzles"

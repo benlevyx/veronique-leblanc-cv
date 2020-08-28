@@ -4,7 +4,11 @@ import Layout from '../components/Layout';
 
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
-import config from '../../config';
+// import config from '../../config';
+import config from '../../cv.yaml';
+
+console.log(config);
+
 const IndexPage = () => (
   <Layout>
     <Sidebar />
@@ -27,7 +31,7 @@ const IndexPage = () => (
             {config.socialLinks.map((social) => {
               const { icon, url } = social;
               return (
-                <a key={url} href={url}>
+                <a key={url} href={url} target="_blank">
                   <i className={`fab ${icon}`}></i>
                 </a>
               );
@@ -133,7 +137,7 @@ const IndexPage = () => (
 
       <hr className="m-0" />
 
-      <section
+      {/*<section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="portfolio"
       >
@@ -164,7 +168,7 @@ const IndexPage = () => (
             );
           })}
         </div>
-      </section>
+      </section>*/}
 
       <hr className="m-0" />
 
