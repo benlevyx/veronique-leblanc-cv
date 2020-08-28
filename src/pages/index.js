@@ -23,8 +23,8 @@ const IndexPage = () => (
             <span className="text-primary"> {config.lastName}</span>
           </h1>
           <div className="subheading mb-5">
-            <a href={`mailto:${config.email}`}>{config.email} · </a>
-            {config.address} · {config.phone}
+            <a href={`mailto:${config.email}`}>{config.email} </a>
+            {/*{config.address} · {config.phone}*/}
           </div>
           <p className="lead mb-5">{config.bio}</p>
           <div className="social-icons">
