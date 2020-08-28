@@ -5,8 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: "**/cv.yaml"
+  path: cv.yaml
   label: CV
+  match: "**/*"
+  read_only: false
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
