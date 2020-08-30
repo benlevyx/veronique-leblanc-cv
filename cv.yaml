@@ -1,36 +1,35 @@
-firstName: 'Véronique'
-lastName: 'Leblanc'
+---
+firstName: Véronique
+lastName: Leblanc
 phoneNumber: ''
 address: ''
-email: 'veronique-leblanc@live.ca'
+email: vleblanc@suicideactionmontreal.qc.ca
 socialLinks:
-  - icon: 'fa-linkedin-in'
-    name: 'LinkedIn'
-    url: 'https://www.linkedin.com/in/v%C3%A9ronique-leblanc-49440779/'
-
-bio: 'A driven Koala and brilliant marsupial on a quest to find the beaniest beans to snuggle in all the land.'
-
+- icon: fa-linkedin-in
+  name: LinkedIn
+  url: https://www.linkedin.com/in/v%C3%A9ronique-leblanc-49440779/
+bio: 'McGill University graduate (2020) working in suicide prevention at Suicide Action
+  Montreal and pursuing a professional certificate in Data Sciences (R) from Harvard
+  University. Research interests include suicide epidemiology as well as the cognitive
+  deficits associated with various psychopathological conditions that may contribute
+  to suicidal behaviors and ideation. '
 experienceList:
-  - title: 'Crisis Response Counsellor'
-    company: 'Suicide Action Montréal (SAM)'
-    description: "I save dozens of peoples' lives every. goddamn. day. The scheduling woman doesn't help at all."
-    period: 'January 2017 - Present'
-
+- title: Crisis Response Counsellor
+  company: Suicide Action Montréal (SAM)
+  description: I save dozens of peoples' lives every. goddamn. day. The scheduling
+    woman doesn't help at all.
+  period: January 2017 - Present
 educationList:
-  - institution: 'McGill University'
-    location: 'Montréal, Canada'
-    description: 'B.A. in Psychology'
-    period: '2017-2020'
-
+- institution: McGill University
+  location: Montréal, Canada
+  description: B.A. in Psychology
+  period: 2017-2020
 certifications:
-  - 'Data science'
-  - 'Crisis response'
-
+- Data science
+- Crisis response
 langTools:
-  - 'French (fluent)'
-
-skills:
-  - "Snuggles"
-  - "Wuggles"
-  - "Nuzzles"
-  - "Wuzzles"
+- Dutch (basic skills)
+- Spanish (intermediary skills)
+- English (fluent)
+- French (fluent)
+skills: []
