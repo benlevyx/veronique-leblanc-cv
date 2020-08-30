@@ -14,6 +14,26 @@ bio: 'McGill University graduate (2020) working in suicide prevention at Suicide
   deficits associated with various psychopathological conditions that may contribute
   to suicidal behaviors and ideation. '
 experienceList:
+- title: Research Student
+  company: Sheldon Memory Laboratory
+  description: Currently working on a research project with Professor Signy Sheldon
+    on the relationship between the usage of past episodic memories to form opinions
+    and judgements about the self in individuals with a higher number of depressive
+    symptoms.
+  period: 2019-Present
+- title: Suicide Crisis Counsellor
+  company: Suicide Action Montréal (SAM)
+  description: Supervising intervention officer position for the Montreal suicide
+    prevention non-profit. Duties involve supervising all volunteers, individualized
+    follow-ups for at-risk patients or loved ones of those considering suicide, as
+    well as additional special clinical projects.
+  period: January 2017 - Present
+- title: Teacher Assistant (TA)
+  company: McGill University Department of Psychology & Biology
+  description: Teacher Assistant Position for Introduction to Biology (BIOL115) in
+    Fall 2018, Perception (PSYC212) for the Winter 2019 and 2020 Semesters, and for
+    Modern Psychology in Historical Perspectives (PSYC403) in the Winter 2020 Semester.
+  period: 2018-2020
 - title: Research Fellow
   company: Center for Research in Cognition & Neurosciences (CRCN)
   description: Working with Professor Axel Cleeremans at the Université Libre de Bruxelles
@@ -27,19 +47,6 @@ experienceList:
     conducting electroencephalogram (EEG) testing for projects related to reward sensitivity
     and anhedonia in depression and anxiety.
   period: 2018-2019
-- title: Teacher Assistant (TA)
-  company: McGill University Department of Psychology & Biology
-  description: Teacher Assistant Position for Introduction to Biology (BIOL115) in
-    Fall 2018, Perception (PSYC212) for the Winter 2019 and 2020 Semesters, and for
-    Modern Psychology in Historical Perspectives (PSYC403) in the Winter 2020 Semester.
-  period: 2018-2020
-- title: Suicide Crisis Counsellor
-  company: Suicide Action Montréal (SAM)
-  description: Supervising intervention officer position for the Montreal suicide
-    prevention non-profit. Duties involve supervising all volunteers, individualized
-    follow-ups for at-risk patients or loved ones of those considering suicide, as
-    well as additional special clinical projects.
-  period: January 2017 - Present
 educationList:
 - institution: McGill University
   location: Montréal, Canada
