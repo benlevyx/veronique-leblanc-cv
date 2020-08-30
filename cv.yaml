@@ -1,8 +1,8 @@
 ---
-firstName: Véronique
-lastName: Leblanc
+firstName: Axel
+lastName: Cleeremans
 phoneNumber: ''
-address: ''
+address: Avenue Antoine Depage 30, 1000 Bruxelles
 email: vleblanc@suicideactionmontreal.qc.ca
 socialLinks:
 - icon: fa-linkedin-in
@@ -15,9 +15,12 @@ bio: 'McGill University graduate (2020) working in suicide prevention at Suicide
   to suicidal behaviors and ideation. '
 experienceList:
 - title: Research Fellow
-  company: ''
-  description: ''
-  period: ''
+  company: Center for Research in Cognition & Neurosciences (CRCN)
+  description: Working with Professor Axel Cleeremans at the Université Libre de Bruxelles
+    (ULB) on a research project seeking to understand the underlying cognitive mechanisms
+    for anhedonia, a symptom of Major Depressive Disorder (MDD) that is commonly associated
+    with suicidal ideation and behaviors.
+  period: 2019-2020
 - title: Research Assistant
   company: Translational Research in Affect and Cognition (TRAC) Laboratory
   description: Research Assistant for Dr. Anna Weinberg at the McGill University Laboratory,
