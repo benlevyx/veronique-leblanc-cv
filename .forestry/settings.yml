@@ -8,7 +8,7 @@ sections:
   path: src/assets/sass
   label: CSS (colours and styles)
   create: all
-  match: "**/*.sscc"
+  match: "**/*.scss"
 - type: document
   path: cv.yaml
   label: CV
