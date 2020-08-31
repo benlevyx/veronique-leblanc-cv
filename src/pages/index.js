@@ -108,15 +108,15 @@ const IndexPage = () => (
           <h2 className="mb-5">Skills</h2>
 
           <div className="subheading mb-3">
-            Programming Languages &amp; Tools
+            Languages
           </div>
-          <ul className="list-inline dev-icons">
-            {config.langTools.map((education) => {
-              const { iconClass } = education;
+          <ul className="fa-ul mb-0">
+            {config.languages.map((lang) => {
               return (
-                <li className="list-inline-item">
-                  <i className={`fab ${iconClass}`}></i>
-                </li>
+                  <li>
+                    <i className="fa-li fa fa-check"/>
+                    {lang}
+                  </li>
               );
             })}
           </ul>
@@ -126,7 +126,7 @@ const IndexPage = () => (
             {config.skills.map((skill) => {
               return (
                 <li>
-                  <i className="fa-li fa fa-check"></i>
+                  <i className="fa-li fa fa-check"/>
                   {skill}
                 </li>
               );

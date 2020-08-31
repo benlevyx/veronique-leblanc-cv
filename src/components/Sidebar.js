@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
-import avatar from '../assets/images/cto-ai.png';
+// import avatar from '../assets/images/cto-ai.png';
+import avatar from '../../uploads/main_photo.jpg';
 import config from '../../config';
 
 export class Sidebar extends Component {
@@ -13,8 +14,7 @@ export class Sidebar extends Component {
         { content: 'About', href: 'about' },
         { content: 'Experience', href: 'experience' },
         { content: 'Education', href: 'education' },
-        { content: 'Skills', href: 'skills' },
-        { content: 'Portfolio', href: 'portfolio' },
+        { content: 'Languages and Skills', href: 'skills' },
         { content: 'Certifications', href: 'certifications' },
       ],
     };

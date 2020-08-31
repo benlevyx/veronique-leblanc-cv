@@ -55,9 +55,13 @@ educationList:
 certifications:
 - Data science
 - Crisis response
-langTools:
+languages:
 - Dutch (basic skills)
 - Spanish (intermediary skills)
 - English (fluent)
 - French (fluent)
-skills: []
+skills:
+  - Snuggles
+  - Wuggles
+  - Nuzzles
+  - Wuzzles
