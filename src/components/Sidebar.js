@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
-// import avatar from '../assets/images/cto-ai.png';
 import avatar from '../../uploads/main_photo.jpg';
+import backgroundImage from '../../uploads/sidebar-background.jpg';
 import config from '../../config';
 
 export class Sidebar extends Component {
@@ -26,6 +26,9 @@ export class Sidebar extends Component {
       <nav
         className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
         id="sideNav"
+        style={{
+          backgroundImage: `url(${backgroundImage})`
+        }}
       >
         <a className="navbar-brand" href="#page-top">
           <span className="d-block d-lg-none">
@@ -62,7 +65,10 @@ export class Sidebar extends Component {
               return (
                 <li className="nav-item" key={href}>
                   <Scroll type="id" element={href}>
-                    <a className="nav-link" href={`#${href}`}>
+                    <a
+                        className="nav-link"
+                        href={`#${href}`}
+                    >
                       {content}
                     </a>
                   </Scroll>
