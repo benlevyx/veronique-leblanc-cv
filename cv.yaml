@@ -48,20 +48,39 @@ experienceList:
     and anhedonia in depression and anxiety.
   period: 2018-2019
 educationList:
+- institution: Marianopolis College
+  location: Montreal, Canada
+  description: Honours Social Science DEC in Law, Society and Justice. Collegiate
+    certificates in Third World Studies and International Studies.
+  period: 2015-2017
 - institution: McGill University
   location: Montréal, Canada
   description: B.A. in Psychology
   period: 2017-2020
 certifications:
-- Data science
-- Crisis response
+- Professional Certificate in Data Science, Harvard University (In Progress)
+- Provincial Suicide Crisis Intervention Accreditation, Association Québecoise de
+  Prévention de Suicide (April 2020)
+- Ethical Conduct for Research Involving Humans (TCPS 2) Certification (March 2018)
+- Brain Vision PyCorder (BVP), TRAC Lab (May 2018)
+- Brain Vision Analyzer (BVA), TRAC Lab (July 2018)
+- Anxiety, Bipolar Disorder and Depression Crisis Intervention Certification, Revivre
+  (October 2017)
+langTools:
+- English (fluent)
+- French (fluent)
+- Spanish (intermediary skills)
+- Dutch (basic skills)
+skills:
+- R
+- Jamovi
+- MatLab
+- Python`
+- E-Prime
+- SPSS
+- OpenSesame
 languages:
 - Dutch (basic skills)
 - Spanish (intermediary skills)
 - English (fluent)
 - French (fluent)
-skills:
-  - Snuggles
-  - Wuggles
-  - Nuzzles
-  - Wuzzles
