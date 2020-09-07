@@ -48,15 +48,15 @@ experienceList:
     and anhedonia in depression and anxiety.
   period: 2018-2019
 educationList:
-- institution: Marianopolis College
-  location: Montreal, Canada
-  description: Honours Social Science DEC in Law, Society and Justice. Collegiate
-    certificates in Third World Studies and International Studies.
-  period: 2015-2017
 - institution: McGill University
   location: Montréal, Canada
   description: B.A. in Psychology
   period: 2017-2020
+- institution: Marianopolis College
+  location: Montréal, Canada
+  description: Honours Social Science DEC in Law, Society and Justice. Collegiate
+    certificates in Third World Studies and International Studies.
+  period: 2015-2017
 certifications:
 - Professional Certificate in Data Science, Harvard University (In Progress)
 - Provincial Suicide Crisis Intervention Accreditation, Association Québecoise de
