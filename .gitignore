@@ -106,5 +106,8 @@ dist
 # Jetbrains
 .idea
 
+# VSCode
+.vscode
+
 # Public dir
 public/

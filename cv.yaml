@@ -58,29 +58,46 @@ educationList:
     certificates in Third World Studies and International Studies.
   period: 2015-2017
 certifications:
-- Professional Certificate in Data Science, Harvard University (In Progress)
-- Provincial Suicide Crisis Intervention Accreditation, Association Québecoise de
-  Prévention de Suicide (April 2020)
-- Ethical Conduct for Research Involving Humans (TCPS 2) Certification (March 2018)
-- Brain Vision PyCorder (BVP), TRAC Lab (May 2018)
-- Brain Vision Analyzer (BVA), TRAC Lab (July 2018)
-- Anxiety, Bipolar Disorder and Depression Crisis Intervention Certification, Revivre
-  (October 2017)
-langTools:
-- English (fluent)
-- French (fluent)
-- Spanish (intermediary skills)
-- Dutch (basic skills)
+  - name: Professional Certificate in Data Science
+    from:
+      name: Harvard University
+      link: https://www.edx.org/professional-certificate/harvardx-data-science
+    date: (In Progress)
+  - name: Provincial Suicide Crisis Intervention Accreditation
+    from: 
+      name: Association Québecoise de Prévention de Suicide 
+      link: https://www.aqps.info/
+    date: April 2020
+  - name: Ethical Conduct for Research Involving Humans (TCPS 2) Certification
+    from:
+      name: Government of Canada Panel on Research Ethics
+      link: https://ethics.gc.ca/eng/policy-politique_tcps2-eptc2_2018.html
+    date: March 2018
+  - name: Brain Vision PyCorder (BVP)
+    from: 
+      name: TRAC Lab
+      link: ''
+    date: May 2018
+  - name: Brain Vision Analyzer (BVA)
+    from: 
+      name: TRAC Lab
+      link: 'https://annaweinberg8.wixsite.com/traclab'
+    date: July 2018
+  - name: Anxiety, Bipolar Disorder and Depression Crisis Intervention Certification
+    from:
+      name: Revivre
+      link: https://www.revivre.org/en/
+    date: October 2017
 skills:
-- R
-- Jamovi
-- MatLab
-- Python`
-- E-Prime
-- SPSS
-- OpenSesame
+  - R
+  - Jamovi
+  - MatLab
+  - Python`
+  - E-Prime
+  - SPSS
+  - OpenSesame
 languages:
-- Dutch (basic skills)
-- Spanish (intermediary skills)
-- English (fluent)
-- French (fluent)
+  - Dutch (basic skills)
+  - Spanish (intermediary skills)
+  - English (fluent)
+  - French (fluent)

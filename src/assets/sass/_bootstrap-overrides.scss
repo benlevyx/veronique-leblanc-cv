@@ -21,8 +21,10 @@ a {
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.8) !important;
+  text-shadow: black 2px 1px 5px !important;
 }
 .navbar-dark .navbar-nav .active > .nav-link {
-  color: darken($cyan, 15%) !important;
-  text-shadow: white 1px 0 10px !important;
+  color: $yellow !important;
+  // text-shadow: white 0px 0px 10px !important;
+  @include stroke(2, black);
 }

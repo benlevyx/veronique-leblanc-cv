@@ -7,8 +7,6 @@ import Sidebar from '../components/Sidebar';
 // import config from '../../config';
 import config from '../../cv.yaml';
 
-console.log(config);
-
 const IndexPage = () => (
   <Layout>
     <Sidebar />
@@ -31,7 +29,7 @@ const IndexPage = () => (
             {config.socialLinks.map((social) => {
               const { icon, url } = social;
               return (
-                <a key={url} href={url} target="_blank">
+                <a key={url} href={url} target="_blank" rel="noreferrer">
                   <i className={`fab ${icon}`}></i>
                 </a>
               );
@@ -48,10 +46,10 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Experience</h2>
-          {config.experienceList.map((experience) => {
+          {config.experienceList.map((experience, i) => {
             const { title, company, description, period } = experience;
             return (
-              <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div key={i} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="resume-content">
                   <h3 className="mb-0">{title}</h3>
                   <div className="subheading mb-3">{company}</div>
@@ -75,7 +73,7 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Education</h2>
 
-          {config.educationList.map((education) => {
+          {config.educationList.map((education, i) => {
             const {
               institution,
               qualification,
@@ -83,7 +81,7 @@ const IndexPage = () => (
               period,
             } = education;
             return (
-              <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div key={i} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="resume-content">
                   <h3 className="mb-0">{institution}</h3>
                   <div className="subheading mb-3">{qualification}</div>
@@ -91,6 +89,38 @@ const IndexPage = () => (
                 </div>
                 <div className="resume-date text-md-right">
                   <span className="text-primary">{period}</span>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
+      <hr className="m-0" />
+
+      <section
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="certifications"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Certifications</h2>
+
+          {config.certifications.map((cert, i) => {
+            const {
+              name,
+              from,
+              date
+            } = cert;
+            return (
+              <div key={i} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div className="resume-content">
+                  <h3 className="mb-0">{name}</h3>
+                  <div>
+                    <a href={from.link} target="_blank" rel="noreferrer">{from.name}</a>
+                  </div>
+                </div>
+                <div className="resume-date text-md-right">
+                  <span className="text-primary">{date}</span>
                 </div>
               </div>
             );
@@ -111,9 +141,9 @@ const IndexPage = () => (
             Languages
           </div>
           <ul className="fa-ul mb-0">
-            {config.languages.map((lang) => {
+            {config.languages.map((lang, i) => {
               return (
-                  <li>
+                  <li key={i}>
                     <i className="fa-li fa fa-check"/>
                     {lang}
                   </li>
@@ -123,9 +153,9 @@ const IndexPage = () => (
 
           <div className="subheading mb-3">Other skills</div>
           <ul className="fa-ul mb-0">
-            {config.skills.map((skill) => {
+            {config.skills.map((skill, i) => {
               return (
-                <li>
+                <li key={i}>
                   <i className="fa-li fa fa-check"/>
                   {skill}
                 </li>
@@ -135,61 +165,6 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <hr className="m-0" />
-
-      {/*<section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="portfolio"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Portfolio</h2>
-          {config.portfolio.introParagraphs.map((paragraph) => {
-            return <p>{paragraph}</p>;
-          })}
-
-          <div className="mb-5"></div>
-
-          {config.portfolio.items.map((item) => {
-            const { name, description, url } = item;
-            return (
-              <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div className="resume-content">
-                  <div className="subheading mb-3">{name}</div>
-                  <div>{description}</div>
-                </div>
-                <div className="resume-date text-md-right">
-                  <span className="text-primary portfolio-icons">
-                    <a key={url} href={url}>
-                      <i className={`fab fa-git-alt`}></i>
-                    </a>
-                  </span>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </section>*/}
-
-      <hr className="m-0" />
-
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="certifications"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Certifications & Awards</h2>
-          <ul className="fa-ul mb-0">
-            {config.certifications.map((certification) => {
-              return (
-                <li>
-                  <i className="fa-li fa fa-award text-warning"></i>
-                  {certification}
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      </section>
     </div>
     <div className="container w-100">
       <p className="text-center">

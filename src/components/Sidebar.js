@@ -14,8 +14,8 @@ export class Sidebar extends Component {
         { content: 'About', href: 'about' },
         { content: 'Experience', href: 'experience' },
         { content: 'Education', href: 'education' },
-        { content: 'Languages and Skills', href: 'skills' },
         { content: 'Certifications', href: 'certifications' },
+        { content: 'Languages and Skills', href: 'skills' },
       ],
     };
   }
