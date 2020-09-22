@@ -6,14 +6,14 @@
   color: $primary !important;
 }
 
-a {
-  color: $primary;
-  &:hover,
-  &:focus,
-  &:active {
-    color: darken($primary, 15%);
-  }
-}
+// a {
+//   color: $primary;
+//   &:hover,
+//   &:focus,
+//   &:active {
+//     color: darken($primary, 15%);
+//   }
+// }
 
 .sidebar-footer-link {
   text-decoration: underline;
