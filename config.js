@@ -7,7 +7,6 @@ const LINKEDIN_USERNAME = 'awesome-developer';
 const PHONE_NUMBER = 'Koala Bear';
 const ADDRESS = 'Montreal';
 const EMAIL = 'veronique-leblanc@live.ca';
-const FOOTER_URL = 'https://www.cto.ai';
 
 const BIO = `
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -124,7 +123,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/images/cto-ai.png',
+  manifestIcon: 'src/assets/images/favicon.png',
   pathPrefix: `/${REPOSITORY}`, // This path is subpath of your hosting https://domain/portfolio
   firstName: FIRST_NAME,
   lastName: LAST_NAME,
@@ -162,6 +161,5 @@ module.exports = {
   ],
   email: EMAIL,
   phone: PHONE_NUMBER,
-  address: ADDRESS,
-  footerUrl: FOOTER_URL,
+  address: ADDRESS
 };
