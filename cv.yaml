@@ -76,7 +76,7 @@ certifications:
 - name: Brain Vision PyCorder (BVP)
   from:
     name: TRAC Lab
-    link: ''
+    link: https://annaweinberg8.wixsite.com/traclab
   date: May 2018
 - name: Brain Vision Analyzer (BVA)
   from:
