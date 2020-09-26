@@ -20,11 +20,12 @@
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.8) !important;
-  text-shadow: black 2px 1px 5px !important;
+  color: $primary !important;
+  // text-shadow: black 2px 1px 5px !important;
+  @include stroke(1, white);
 }
 .navbar-dark .navbar-nav .active > .nav-link {
-  color: $yellow !important;
+  color: black !important;
   // text-shadow: white 0px 0px 10px !important;
-  @include stroke(2, black);
+  @include stroke(1, white);
 }

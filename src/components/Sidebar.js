@@ -3,7 +3,7 @@ import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
 import avatar from '../../uploads/main_photo.jpg';
-import backgroundImage from '../../uploads/sidebar-background.jpg';
+import backgroundImage from '../../uploads/sidebar-background.png';
 import config from '../../config';
 
 export class Sidebar extends Component {
