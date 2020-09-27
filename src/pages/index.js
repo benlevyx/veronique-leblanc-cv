@@ -7,6 +7,8 @@ import Sidebar from '../components/Sidebar';
 // import config from '../../config';
 import config from '../../cv.yaml';
 
+const images = require.context('../../assets/images');
+
 const IndexPage = () => (
   <Layout>
     <Sidebar />
@@ -132,14 +134,10 @@ const IndexPage = () => (
 
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="skills"
+        id="languages"
       >
         <div className="w-100">
-          <h2 className="mb-5">Skills</h2>
-
-          <div className="subheading mb-3">
-            Languages
-          </div>
+          <h2 className="mb-5">Languages</h2>
           <ul className="fa-ul mb-0">
             {config.languages.map((lang, i) => {
               return (
@@ -150,17 +148,27 @@ const IndexPage = () => (
               );
             })}
           </ul>
+        </div>
 
-          <div className="subheading mb-3">Other skills</div>
+      </section>
+
+      <hr className="m-0"/>
+
+      <section
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="skills"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Skills</h2>
+
           <ul className="list-inline">
             {config.skills.map((skill, i) => {
-              const imgPath = '/images/' + skill.icon;
               return (
                 <li key={i} className="list-inline-item">
                   <figure>
                     <a href={skill.link} target='_blank' rel="noreferrer">
                       <img 
-                        src={imgPath}
+                        src={images('./' + skill.icon)}
                         style={{
                           height: 80,
                           width: 80, 
