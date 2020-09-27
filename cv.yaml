@@ -89,13 +89,27 @@ certifications:
     link: https://www.revivre.org/en/
   date: October 2017
 skills:
-- R
-- Jamovi
-- MatLab
-- Python`
-- E-Prime
-- SPSS
-- OpenSesame
+  - name: R
+    icon: r.png
+    link: https://www.r-project.org/
+  - name: Jamovi
+    icon: jamovi.png
+    link: https://www.jamovi.org/
+  - name: MatLab
+    icon: matlab.png
+    link: https://www.mathworks.com/products/matlab.html
+  - name: Python
+    icon: python.png
+    link: https://www.python.org/
+  - name: E-Prime
+    icon: eprime.png
+    link: https://pstnet.com/products/e-prime/
+  - name: SPSS
+    icon: spss.png
+    link: https://www.ibm.com/products/spss-statistics
+  - name: OpenSesame
+    icon: opensesame.png
+    link: https://osdoc.cogsci.nl/3.3/
 languages:
 - French (fluent)
 - English (fluent)

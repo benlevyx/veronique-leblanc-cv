@@ -152,12 +152,26 @@ const IndexPage = () => (
           </ul>
 
           <div className="subheading mb-3">Other skills</div>
-          <ul className="fa-ul mb-0">
+          <ul className="list-inline">
             {config.skills.map((skill, i) => {
+              const imgPath = '/images/' + skill.icon;
               return (
-                <li key={i}>
-                  <i className="fa-li fa fa-check"/>
-                  {skill}
+                <li key={i} className="list-inline-item">
+                  <figure>
+                    <a href={skill.link} target='_blank' rel="noreferrer">
+                      <img 
+                        src={imgPath}
+                        style={{
+                          height: 80,
+                          width: 80, 
+                          objectFit: 'contain'
+                          }}
+                        alt={skill.name}
+                        className="grayscale"
+                      />
+                    </a>
+                    <figcaption style={{textAlign: 'center'}}>{skill.name}</figcaption>
+                  </figure>
                 </li>
               );
             })}
