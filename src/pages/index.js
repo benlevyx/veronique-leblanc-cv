@@ -7,7 +7,7 @@ import Sidebar from '../components/Sidebar';
 // import config from '../../config';
 import config from '../../cv.yaml';
 
-const images = require.context('../../assets/images');
+const images = require.context('../assets/images');
 
 const IndexPage = () => (
   <Layout>
@@ -138,13 +138,37 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Languages</h2>
-          <ul className="fa-ul mb-0">
+          <ul className="list-inline">
             {config.languages.map((lang, i) => {
+              const {name, icon} = lang;
+              const caption = name.split(' (');
+              caption[1] = '(' + caption[1];
+              const captionElem = (
+                <figcaption
+                  style={{textAlign: 'center'}}
+                >
+                  <p>{caption[0]}</p>
+                  <p>{caption[1]}</p>
+                </figcaption>
+              )
               return (
-                  <li key={i}>
-                    <i className="fa-li fa fa-check"/>
-                    {lang}
-                  </li>
+                <li key={i} className="list-inline-item">
+                <div style={{padding: '1em'}}>
+                  <figure>
+                    <img 
+                      src={images('./' + icon)}
+                      style={{
+                        height: 120,
+                        width: 120, 
+                        objectFit: 'contain'
+                        }}
+                      alt={name}
+                      className="grayscale"
+                    />
+                    {captionElem}
+                  </figure>
+                </div>
+                </li>
               );
             })}
           </ul>

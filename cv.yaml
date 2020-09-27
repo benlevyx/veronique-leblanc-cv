@@ -111,7 +111,11 @@ skills:
     icon: opensesame.png
     link: https://osdoc.cogsci.nl/3.3/
 languages:
-- French (fluent)
-- English (fluent)
-- Spanish (intermediary skills)
-- Dutch (basic skills)
+  - name: French (fluent)
+    icon: france.png
+  - name: English (fluent)
+    icon: united-kingdom.png
+  - name: Spanish (intermediary skills)
+    icon: spain.png
+  - name: Dutch (basic skills)
+    icon: netherlands.png
