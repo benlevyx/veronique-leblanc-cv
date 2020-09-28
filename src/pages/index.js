@@ -147,19 +147,19 @@ const IndexPage = () => (
                 <figcaption
                   style={{textAlign: 'center'}}
                 >
-                  <p>{caption[0]}</p>
+                  <p style={{paddingBottom: 0, marginBottom: 0}}>{caption[0]}</p>
                   <p>{caption[1]}</p>
                 </figcaption>
               )
               return (
                 <li key={i} className="list-inline-item">
                 <div style={{padding: '1em'}}>
-                  <figure>
+                  <figure style={{textAlign: 'center'}}>
                     <img 
                       src={images('./' + icon)}
                       style={{
-                        height: 120,
-                        width: 120, 
+                        height: 40,
+                        width: 40, 
                         objectFit: 'contain'
                         }}
                       alt={name}
@@ -189,13 +189,13 @@ const IndexPage = () => (
             {config.skills.map((skill, i) => {
               return (
                 <li key={i} className="list-inline-item">
-                  <figure>
+                  <figure style={{textAlign: 'center'}}>
                     <a href={skill.link} target='_blank' rel="noreferrer">
                       <img 
                         src={images('./' + skill.icon)}
                         style={{
-                          height: 80,
-                          width: 80, 
+                          height: 40,
+                          width: 40, 
                           objectFit: 'contain'
                           }}
                         alt={skill.name}
