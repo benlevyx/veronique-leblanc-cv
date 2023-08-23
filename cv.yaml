@@ -104,12 +104,12 @@ certifications:
     link: https://lumivero.com/academy/nvivo-core-skills-course/
   date: March 2023
   
-  - name: "Using Stata Effectively: Data Management, Analysis, and Graphics Fundamentals"
+- name: "Using Stata Effectively: Data Management, Analysis, and Graphics Fundamentals"
   from:
     name: StataCorp LLC
     link: https://www.stata.com/training/public/using-stata-effectively/
   date: June 2022
-  - name: Online Suicide Crisis Intervention Accreditation
+- name: Online Suicide Crisis Intervention Accreditation
   from:
     name: Association Québecoise de Prévention de Suicide (AQPS)
     link: https://aqps.info/strategie-numerique/
@@ -139,6 +139,7 @@ certifications:
     name: Revivre
     link: https://www.revivre.org/en/
   date: October 2017
+  
 skills:
 - name: Stata
     icon: stata.png
