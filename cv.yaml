@@ -3,32 +3,43 @@ firstName: Véronique
 lastName: Leblanc
 phoneNumber: ''
 address: ''
-email: vleblanc@suicideactionmontreal.qc.ca
+email: veronique.leblanc@unh.edu
 socialLinks:
 - icon: fa-linkedin-in
   name: LinkedIn
   url: https://www.linkedin.com/in/v%C3%A9ronique-leblanc-49440779/
-bio: 'McGill University graduate (2020) working in suicide prevention at Suicide Action
-  Montreal and pursuing a professional certificate in Data Sciences (R) from Harvard
-  University. Research interests include suicide epidemiology as well as the cognitive
-  deficits associated with various psychopathological conditions that may contribute
-  to suicidal behaviors and ideation. '
+bio: Boston University (MA) and McGill University (BA) graduate working with the Center Against Children Research Center (CCRC) 
+  on a NIMH-funded longitudinal national survey aimed at increasing our understanding of teenage and young adult suicidality, 
+  as well as the role of and impacts on bystanders in situations of self-directed violence (including ideation, attempts and non-suicidal self-injury). 
+  Interested in the role of tech and artificial intelligence for crisis interventions, as well as to bolster clinician competence and evidence-based clinical practices.
 
 
 researchAndTeaching:
-  - title: Title
-    company: company
+  - title: Research Associate
+    company: University of New Hampshire (UNH)
     description: description
     # ... Add more as necessary
 publicationsAndConferences:
-  - title: Title
+  - title: "Leblanc, V, Mitchell, KJ et al (in progress). A Deeper Look Into the Wellbeing of Sexual and Gender Minority Youth Exposed to Self-Directed Violence: Insights into Future Prevention."
     company: company
+    description: description
+  - title: "Leblanc, V, Mitchell, KJ et al (in progress). Bystander Mental Health Outcomes Across Levels of Suicide Attempt Exposure Severity."
+    company: company
+    description: description
+  - title: Supporting Youth Strengths through Hotline and Professional Resource Usage. 
+    company: Resilience Conference, 2023
     description: description
     # ... Add more as necessary
 clinicalWork:
-  - title: Title
-    company: company
-    description: description
+  - title: Suicide Crisis Counsellor (2017-2021)
+    company: Suicide Prevention Centre of Montreal (Previously "Suicide Action Montréal (SAM)")
+    description: Supervising intervention officer position for the Montreal suicide
+      prevention non-profit. Duties involved supervising all volunteers, individualized
+      follow-ups for at-risk patients or loved ones of those considering suicide, as
+      well as additional special clinical projects such as group grief counseling sessions.
+  - title: Intervention Counsellor (2017-2019)
+    company: Relief (Previously "Revivre") 
+    description: Intervention officer position for the Montreal bipolar, depression and anxiety resource. 
     # ... Add more as necessary
 
 experienceList:
@@ -65,6 +76,7 @@ experienceList:
     conducting electroencephalogram (EEG) testing for projects related to reward sensitivity
     and anhedonia in depression and anxiety.
   period: 2018-2019
+  
 educationList:
 - institution: McGill University
   location: Montreal, Canada
@@ -75,15 +87,35 @@ educationList:
   description: Honours Social Science DEC in Law, Society and Justice. Collegiate
     certificates in Third World Studies and International Studies.
   period: 2015-2017
+
+
+  
 certifications:
-- name: Professional Certificate in Data Science
+- name: Atlas.ti Basics
   from:
-    name: Harvard University
-    link: https://www.edx.org/professional-certificate/harvardx-data-science
-  date: "(In Progress)"
+    name: Atlas.ti
+    link: https://atlasti.com/trainings/atlas-ti-in-45-minutes
+  date: September 2023
+
+- name: NVivo Core Skills
+  from:
+    name: Lumivero
+    link: https://lumivero.com/academy/nvivo-core-skills-course/
+  date: March 2023
+  
+- name: "Using Stata Effectively: Data Management, Analysis, and Graphics Fundamentals"
+  from:
+    name: StataCorp LLC
+    link: https://www.stata.com/training/public/using-stata-effectively/
+  date: June 2022
+- name: Online Suicide Crisis Intervention Accreditation
+  from:
+    name: Association Québecoise de Prévention de Suicide (AQPS)
+    link: https://aqps.info/strategie-numerique/
+  date: April 2020
 - name: Provincial Suicide Crisis Intervention Accreditation
   from:
-    name: Association Québecoise de Prévention de Suicide
+    name: Association Québecoise de Prévention de Suicide (AQPS)
     link: https://www.aqps.info/
   date: April 2020
 - name: Ethical Conduct for Research Involving Humans (TCPS 2) Certification
@@ -106,7 +138,11 @@ certifications:
     name: Revivre
     link: https://www.revivre.org/en/
   date: October 2017
+  
 skills:
+  - name: Stata
+    icon: stata.png
+    link: https://www.stata.com/
   - name: R
     icon: r.png
     link: https://www.r-project.org/
