@@ -21,14 +21,8 @@ researchAndTeaching:
     # ... Add more as necessary
 publicationsAndConferences:
   - title: "Leblanc, V, Mitchell, KJ et al (in progress). A Deeper Look Into the Wellbeing of Sexual and Gender Minority Youth Exposed to Self-Directed Violence: Insights into Future Prevention."
-    company: company
-    description: description
   - title: "Leblanc, V, Mitchell, KJ et al (in progress). Bystander Mental Health Outcomes Across Levels of Suicide Attempt Exposure Severity."
-    company: company
-    description: description
-  - title: Supporting Youth Strengths through Hotline and Professional Resource Usage. 
-    company: Resilience Conference, 2023
-    description: description
+  - title: Supporting Youth Strengths through Hotline and Professional Resource Usage. Resilience Conference, 2023.
     # ... Add more as necessary
 clinicalWork:
   - title: Suicide Crisis Counsellor (2017-2021)

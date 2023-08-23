@@ -108,7 +108,7 @@ const IndexPage = () => (
           <h3 className="mb-4">Publications & Conferences</h3>
 
           {config.publicationsAndConferences.map((experience, i) => {
-            const { title, company, description, period } = experience;
+            const { title } = experience;
             return (
               <div
                 key={i}
@@ -116,11 +116,6 @@ const IndexPage = () => (
               >
                 <div className="resume-content">
                   <p className="mb-0 font-bold">{title}</p>
-                  <div className="subheading mb-3">{company}</div>
-                  <p>{description}</p>
-                </div>
-                <div className="resume-date text-md-right">
-                  <span className="text-primary">{period}</span>
                 </div>
               </div>
             );
@@ -137,7 +132,7 @@ const IndexPage = () => (
               >
                 <div className="resume-content">
                   <h4 className="mb-0">{title}</h4>
-                  <div className="subheading mb-3">{company}</div>
+                  <h5 className="mb-3">{company}</h5>
                   <p>{description}</p>
                 </div>
                 <div className="resume-date text-md-right">
