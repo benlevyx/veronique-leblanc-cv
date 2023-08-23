@@ -45,16 +45,17 @@ researchAndTeaching:
       and anhedonia in depression and anxiety.
     period: 2018 - 2019
     # ... Add more as necessary
-dissemination:
-  - company: Publications
-    title: "Leblanc, V, Mitchell, KJ et al (in progress). A Deeper Look Into the Wellbeing of Sexual and Gender Minority Youth Exposed to Self-Directed Violence: Insights into Future Prevention."
-    title: "Leblanc, V, Mitchell, KJ et al (in progress). Bystander Mental Health Outcomes Across Levels of Suicide Attempt Exposure Severity."
-  - company: Conference Presentations
-    title: "Supporting Youth Strengths through Hotline and Professional Resource Usage. Resilience Conference, 2023."
-  - company: Reviewing
-    title: "Journal of American College Health, 2023"
-    title: "Child & Youth Services, 2023"
+academicWorks:
+  publications:
+  - title: "Leblanc, V, Mitchell, KJ et al (in progress). A Deeper Look Into the Wellbeing of Sexual and Gender Minority Youth Exposed to Self-Directed Violence: Insights into Future Prevention."
+  - title: "Leblanc, V, Mitchell, KJ et al (in progress). Bystander Mental Health Outcomes Across Levels of Suicide Attempt Exposure Severity."
+  conferencePresentations:
+  - title: "Supporting Youth Strengths through Hotline and Professional Resource Usage. Resilience Conference, 2023."
+  reviewing:
+  - title: "Journal of American College Health, 2023"
+  - title: "Child & Youth Services, 2023"
     # ... Add more as necessary
+
 clinicalWork:
   - title: Supervising Suicide Crisis Counsellor
     company: Suicide Prevention Centre of Montreal (SPCM)

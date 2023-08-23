@@ -101,9 +101,10 @@ const IndexPage = () => (
             );
           })}
 
-          <h3 className="mb-4">Publications & Conferences</h3>
+          <h3 className="mb-4">Academic Works</h3>
 
-          {config.publicationsAndConferences.map((experience, i) => {
+          <h4 className="mb-2">Publications</h4>
+          {config.academicWorks.publications.map((experience, i) => {
             const { title } = experience;
             return (
               <div
@@ -117,6 +118,35 @@ const IndexPage = () => (
             );
           })}
 
+          <h4 className="mb-2">Reviewing</h4>
+          {config.academicWorks.publications.map((experience, i) => {
+            const { title } = experience;
+            return (
+              <div
+                key={i}
+                className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+              >
+                <div className="resume-content">
+                  <p className="mb-0 font-bold">{title}</p>
+                </div>
+              </div>
+            );
+          })}
+          <h4 className="mb-2">Conference Presentations</h4>
+
+          {config.academicWorks.conferencePresentations.map((experience, i) => {
+            const { title } = experience;
+            return (
+              <div
+                key={i}
+                className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+              >
+                <div className="resume-content">
+                  <p className="mb-0 font-bold">{title}</p>
+                </div>
+              </div>
+            );
+          })}
           <h3 className="mb-4">Clinical Work</h3>
 
           {config.clinicalWork.map((experience, i) => {
