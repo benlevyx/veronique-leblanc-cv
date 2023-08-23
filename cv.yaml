@@ -3,7 +3,6 @@ firstName: Véronique
 lastName: Leblanc
 phoneNumber: ''
 address: ''
-email: veronique-leblanc@live.ca
 email: veronique.leblanc@unh.edu
 socialLinks:
 - icon: fa-linkedin-in
@@ -141,7 +140,7 @@ certifications:
   date: October 2017
   
 skills:
-- name: Stata
+  - name: Stata
     icon: stata.png
     link: https://www.stata.com/
   - name: R
