@@ -111,3 +111,4 @@ dist
 
 # Public dir
 public/
+node_modules

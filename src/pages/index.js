@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import Layout from '../components/Layout';
+import Layout from "../components/Layout";
 
 // import { Link } from 'gatsby';
-import Sidebar from '../components/Sidebar';
+import Sidebar from "../components/Sidebar";
 // import config from '../../config';
-import config from '../../cv.yaml';
+import config from "../../cv.yaml";
 
-const images = require.context('../assets/images');
+const images = require.context("../assets/images");
 
 const IndexPage = () => (
   <Layout>
@@ -43,32 +43,6 @@ const IndexPage = () => (
       <hr className="m-0" />
 
       <section
-        className="resume-section p-3 p-lg-5 d-flex justify-content-center"
-        id="experience"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Experience</h2>
-          {config.experienceList.map((experience, i) => {
-            const { title, company, description, period } = experience;
-            return (
-              <div key={i} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div className="resume-content">
-                  <h3 className="mb-0">{title}</h3>
-                  <div className="subheading mb-3">{company}</div>
-                  <p>{description}</p>
-                </div>
-                <div className="resume-date text-md-right">
-                  <span className="text-primary">{period}</span>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </section>
-
-      <hr className="m-0" />
-
-      <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="education"
       >
@@ -83,11 +57,88 @@ const IndexPage = () => (
               period,
             } = education;
             return (
-              <div key={i} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div
+                key={i}
+                className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+              >
                 <div className="resume-content">
                   <h3 className="mb-0">{institution}</h3>
                   <div className="subheading mb-3">{qualification}</div>
                   <div>{description}</div>
+                </div>
+                <div className="resume-date text-md-right">
+                  <span className="text-primary">{period}</span>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
+      <hr className="m-0" />
+
+      <section
+        className="resume-section p-3 p-lg-5 d-flex justify-content-center"
+        id="experience"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Experience</h2>
+
+          <h3 className="mb-4">Research & Teaching</h3>
+
+          {config.researchAndTeaching.map((experience, i) => {
+            const { title, company, description, period } = experience;
+            return (
+              <div
+                key={i}
+                className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+              >
+                <div className="resume-content">
+                  <h3 className="mb-0">{title}</h3>
+                  <div className="subheading mb-3">{company}</div>
+                  <p>{description}</p>
+                </div>
+                <div className="resume-date text-md-right">
+                  <span className="text-primary">{period}</span>
+                </div>
+              </div>
+            );
+          })}
+
+          <h3 className="mb-4">Publications & Conferences</h3>
+
+          {config.publicationsAndConferences.map((experience, i) => {
+            const { title, company, description, period } = experience;
+            return (
+              <div
+                key={i}
+                className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+              >
+                <div className="resume-content">
+                  <h3 className="mb-0">{title}</h3>
+                  <div className="subheading mb-3">{company}</div>
+                  <p>{description}</p>
+                </div>
+                <div className="resume-date text-md-right">
+                  <span className="text-primary">{period}</span>
+                </div>
+              </div>
+            );
+          })}
+
+          <h3 className="mb-4">Clinical Work</h3>
+
+          {config.clinicalWork.map((experience, i) => {
+            const { title, company, description, period } = experience;
+            return (
+              <div
+                key={i}
+                className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+              >
+                <div className="resume-content">
+                  <h3 className="mb-0">{title}</h3>
+                  <div className="subheading mb-3">{company}</div>
+                  <p>{description}</p>
                 </div>
                 <div className="resume-date text-md-right">
                   <span className="text-primary">{period}</span>
@@ -108,17 +159,18 @@ const IndexPage = () => (
           <h2 className="mb-5">Certifications</h2>
 
           {config.certifications.map((cert, i) => {
-            const {
-              name,
-              from,
-              date
-            } = cert;
+            const { name, from, date } = cert;
             return (
-              <div key={i} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div
+                key={i}
+                className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+              >
                 <div className="resume-content">
                   <h3 className="mb-0">{name}</h3>
                   <div>
-                    <a href={from.link} target="_blank" rel="noreferrer">{from.name}</a>
+                    <a href={from.link} target="_blank" rel="noreferrer">
+                      {from.name}
+                    </a>
                   </div>
                 </div>
                 <div className="resume-date text-md-right">
@@ -140,43 +192,42 @@ const IndexPage = () => (
           <h2 className="mb-5">Languages</h2>
           <ul className="list-inline">
             {config.languages.map((lang, i) => {
-              const {name, icon} = lang;
-              const caption = name.split(' (');
-              caption[1] = '(' + caption[1];
+              const { name, icon } = lang;
+              const caption = name.split(" (");
+              caption[1] = "(" + caption[1];
               const captionElem = (
-                <figcaption
-                  style={{textAlign: 'center'}}
-                >
-                  <p style={{paddingBottom: 0, marginBottom: 0}}>{caption[0]}</p>
+                <figcaption style={{ textAlign: "center" }}>
+                  <p style={{ paddingBottom: 0, marginBottom: 0 }}>
+                    {caption[0]}
+                  </p>
                   <p>{caption[1]}</p>
                 </figcaption>
-              )
+              );
               return (
                 <li key={i} className="list-inline-item">
-                <div style={{padding: '1em'}}>
-                  <figure style={{textAlign: 'center'}}>
-                    <img 
-                      src={images('./' + icon)}
-                      style={{
-                        height: 40,
-                        width: 40, 
-                        objectFit: 'contain'
+                  <div style={{ padding: "1em" }}>
+                    <figure style={{ textAlign: "center" }}>
+                      <img
+                        src={images("./" + icon)}
+                        style={{
+                          height: 40,
+                          width: 40,
+                          objectFit: "contain",
                         }}
-                      alt={name}
-                      className="grayscale"
-                    />
-                    {captionElem}
-                  </figure>
-                </div>
+                        alt={name}
+                        className="grayscale"
+                      />
+                      {captionElem}
+                    </figure>
+                  </div>
                 </li>
               );
             })}
           </ul>
         </div>
-
       </section>
 
-      <hr className="m-0"/>
+      <hr className="m-0" />
 
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
@@ -189,20 +240,22 @@ const IndexPage = () => (
             {config.skills.map((skill, i) => {
               return (
                 <li key={i} className="list-inline-item">
-                  <figure style={{textAlign: 'center'}}>
-                    <a href={skill.link} target='_blank' rel="noreferrer">
-                      <img 
-                        src={images('./' + skill.icon)}
+                  <figure style={{ textAlign: "center" }}>
+                    <a href={skill.link} target="_blank" rel="noreferrer">
+                      <img
+                        src={images("./" + skill.icon)}
                         style={{
                           height: 40,
-                          width: 40, 
-                          objectFit: 'contain'
-                          }}
+                          width: 40,
+                          objectFit: "contain",
+                        }}
                         alt={skill.name}
                         className="grayscale"
                       />
                     </a>
-                    <figcaption style={{textAlign: 'center'}}>{skill.name}</figcaption>
+                    <figcaption style={{ textAlign: "center" }}>
+                      {skill.name}
+                    </figcaption>
                   </figure>
                 </li>
               );
@@ -210,12 +263,11 @@ const IndexPage = () => (
           </ul>
         </div>
       </section>
-
     </div>
     <div className="container w-100">
       <p className="text-center">
         <small className="d-lg-none d-xl-none">
-          Generated with the{' '}
+          Generated with the{" "}
           <a href={`${config.footerUrl}`} className="">
             Ops Platform
           </a>

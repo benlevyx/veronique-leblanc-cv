@@ -13,6 +13,24 @@ bio: 'McGill University graduate (2020) working in suicide prevention at Suicide
   University. Research interests include suicide epidemiology as well as the cognitive
   deficits associated with various psychopathological conditions that may contribute
   to suicidal behaviors and ideation. '
+
+
+researchAndTeaching:
+  - title: Title
+    company: company
+    description: description
+    # ... Add more as necessary
+publicationsAndConferences:
+  - title: Title
+    company: company
+    description: description
+    # ... Add more as necessary
+clinicalWork:
+  - title: Title
+    company: company
+    description: description
+    # ... Add more as necessary
+
 experienceList:
 - title: Suicide Crisis Counsellor
   company: Suicide Action Montréal (SAM)
