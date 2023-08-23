@@ -18,7 +18,7 @@ researchAndTeaching:
   - title: Research Associate
     company: Center Against Children Research Center (CCRC) - University of New Hampshire (UNH)
     description: Currently working as a full-time research associate for an NIMH-funded longitudinal national survey aimed at increasing our understanding of teenage and young adult suicidality, 
-  as well as the role of and impacts on bystanders in situations of self-directed violence (including ideation, attempts and non-suicidal self-injury). 
+      as well as the role of and impacts on bystanders in situations of self-directed violence (including ideation, attempts and non-suicidal self-injury). 
     period: 2022 - Present
   - title: Research Student
     company: Boston University Center for Psychiatric Rehabilitation - Boston University (BU)
@@ -27,22 +27,22 @@ researchAndTeaching:
   - title: Research Student
     company: Sheldon Memory Laboratory - McGill University
     description: Worked on a research project with Professor Signy Sheldon
-    on the relationship between the usage of past episodic memories to form opinions
-    and judgments about the self in individuals suffering from depressive
-    symptoms, which served as my undergraduate thesis.
+      on the relationship between the usage of past episodic memories to form opinions
+      and judgments about the self in individuals suffering from depressive
+      symptoms, which served as my undergraduate thesis.
     period: 2019 - 2020
   - title: Research Fellow
     company: Center for Research in Cognition & Neurosciences (CRCN) - Université Libre de Bruxelles (ULB)
     description: Worked with Professor Axel Cleeremans at the Université Libre de Bruxelles
-    (ULB) on a research project seeking to understand the underlying cognitive mechanisms
-    for anhedonia, a symptom of Major Depressive Disorder (MDD) that is commonly associated
-    with suicidal ideation and behaviors.
+      (ULB) on a research project seeking to understand the underlying cognitive mechanisms
+      for anhedonia, a symptom of Major Depressive Disorder (MDD) that is commonly associated
+      with suicidal ideation and behaviors.
     period: 2019 - 2020
     - title: Research Assistant
     company: Translational Research in Affect and Cognition (TRAC) Laboratory - McGill University
     description: Worked as a Research Assistant for Dr. Anna Weinberg at the McGill University Laboratory,
-    conducting electroencephalogram (EEG) testing for projects related to reward sensitivity
-    and anhedonia in depression and anxiety.
+      conducting electroencephalogram (EEG) testing for projects related to reward sensitivity
+      and anhedonia in depression and anxiety.
     period: 2018 - 2019
     # ... Add more as necessary
 publicationsAndConferences:
@@ -107,12 +107,12 @@ educationList:
 - institution: McGill University (BA)
   location: Montreal, Quebec
   description: B.A. in Psychology with Undergraduate Research Thesis. Extracurriculars - McGill Debating Club (MDU), 
-  McGill Psychology Students Association (MPSA), Canadian International Model United Nations (CANIMUN), Canadian University Society for Intercollegiate Debate (CUSID)
+    McGill Psychology Students Association (MPSA), Canadian International Model United Nations (CANIMUN), Canadian University Society for Intercollegiate Debate (CUSID)
   period: 2017-2020
 - institution: Marianopolis College
   location: Montréal, Quebec
   description: Honours Social Science DEC in Law, Society and Justice. Collegiate certificates in Third World Studies and International Studies. 
-  Extracurriculars - Marianopolis Model United Nations (MariMUN), Marianopolis World Review (MWR), Montreal United Nations Conference (MUNC), Marianopolis Debating Club
+    Extracurriculars - Marianopolis Model United Nations (MariMUN), Marianopolis World Review (MWR), Montreal United Nations Conference (MUNC), Marianopolis Debating Club
   period: 2015-2017
 
 
