@@ -16,24 +16,52 @@ bio: Boston University (MA) and McGill University (BA) graduate working with the
 
 researchAndTeaching:
   - title: Research Associate
-    company: University of New Hampshire (UNH)
+    company: Center Against Children Research Center (CCRC) - University of New Hampshire (UNH)
+    description: Currently working as a full-time research associate for an NIMH-funded longitudinal national survey aimed at increasing our understanding of teenage and young adult suicidality, 
+  as well as the role of and impacts on bystanders in situations of self-directed violence (including ideation, attempts and non-suicidal self-injury). 
+    period: 2022 - Present
+  - title: Research Student
+    company: Boston University Center for Psychiatric Rehabilitation - Boston University (BU)
     description: description
+    period: 2021 - 2022
+  - title: Research Student
+    company: Sheldon Memory Laboratory - McGill University
+    description: Worked on a research project with Professor Signy Sheldon
+    on the relationship between the usage of past episodic memories to form opinions
+    and judgments about the self in individuals suffering from depressive
+    symptoms, which served as my undergraduate thesis.
+    period: 2019 - 2020
+  - title: Research Fellow
+    company: Center for Research in Cognition & Neurosciences (CRCN) - Université Libre de Bruxelles (ULB)
+    description: Worked with Professor Axel Cleeremans at the Université Libre de Bruxelles
+    (ULB) on a research project seeking to understand the underlying cognitive mechanisms
+    for anhedonia, a symptom of Major Depressive Disorder (MDD) that is commonly associated
+    with suicidal ideation and behaviors.
+    period: 2019 - 2020
+    - title: Research Assistant
+    company: Translational Research in Affect and Cognition (TRAC) Laboratory - McGill University
+    description: Worked as a Research Assistant for Dr. Anna Weinberg at the McGill University Laboratory,
+    conducting electroencephalogram (EEG) testing for projects related to reward sensitivity
+    and anhedonia in depression and anxiety.
+    period: 2018 - 2019
     # ... Add more as necessary
 publicationsAndConferences:
   - title: "Leblanc, V, Mitchell, KJ et al (in progress). A Deeper Look Into the Wellbeing of Sexual and Gender Minority Youth Exposed to Self-Directed Violence: Insights into Future Prevention."
   - title: "Leblanc, V, Mitchell, KJ et al (in progress). Bystander Mental Health Outcomes Across Levels of Suicide Attempt Exposure Severity."
-  - title: Supporting Youth Strengths through Hotline and Professional Resource Usage. Resilience Conference, 2023.
+  - title: "Supporting Youth Strengths through Hotline and Professional Resource Usage". Resilience Conference, 2023.
     # ... Add more as necessary
 clinicalWork:
-  - title: Suicide Crisis Counsellor (2017-2021)
-    company: Suicide Prevention Centre of Montreal (Previously "Suicide Action Montréal (SAM)")
+  - title: Supervising Suicide Crisis Counsellor
+    company: Suicide Prevention Centre of Montreal (SPCM)
     description: Supervising intervention officer position for the Montreal suicide
-      prevention non-profit. Duties involved supervising all volunteers, individualized
+      prevention non-profit (previously 'Suicide Action Montreal'). Duties involved supervising all volunteers, individualized
       follow-ups for at-risk patients or loved ones of those considering suicide, as
       well as additional special clinical projects such as group grief counseling sessions.
-  - title: Intervention Counsellor (2017-2019)
-    company: Relief (Previously "Revivre") 
-    description: Intervention officer position for the Montreal bipolar, depression and anxiety resource. 
+    period: 2017-2021
+  - title: Intervention Counsellor
+    company: Relief
+    description: Intervention officer position for the Montreal bipolar, depression and anxiety resource (previously 'Revivre'). 
+    period: 2017-2019
     # ... Add more as necessary
 
 experienceList:
@@ -72,14 +100,19 @@ experienceList:
   period: 2018-2019
   
 educationList:
-- institution: McGill University
-  location: Montreal, Canada
-  description: B.A. in Psychology with Undergraduate Research Thesis
+- institution: Boston University (MA)
+  location: Boston, Massachusetts
+  description: M.A. in Experimental Psychology with Research Thesis
+  period: 2021-2022
+- institution: McGill University (BA)
+  location: Montreal, Quebec
+  description: B.A. in Psychology with Undergraduate Research Thesis. Extracurriculars - McGill Debating Club (MDU), 
+  McGill Psychology Students Association (MPSA), Canadian International Model United Nations (CANIMUN), Canadian University Society for Intercollegiate Debate (CUSID)
   period: 2017-2020
 - institution: Marianopolis College
-  location: Montréal, Canada
-  description: Honours Social Science DEC in Law, Society and Justice. Collegiate
-    certificates in Third World Studies and International Studies.
+  location: Montréal, Quebec
+  description: Honours Social Science DEC in Law, Society and Justice. Collegiate certificates in Third World Studies and International Studies. 
+  Extracurriculars - Marianopolis Model United Nations (MariMUN), Marianopolis World Review (MWR), Montreal United Nations Conference (MUNC), Marianopolis Debating Club
   period: 2015-2017
 
 
@@ -106,7 +139,7 @@ certifications:
   from:
     name: Association Québecoise de Prévention de Suicide (AQPS)
     link: https://aqps.info/strategie-numerique/
-  date: April 2020
+  date: October 2020
 - name: Provincial Suicide Crisis Intervention Accreditation
   from:
     name: Association Québecoise de Prévention de Suicide (AQPS)
