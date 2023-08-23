@@ -123,53 +123,55 @@ educationList:
 
   
 certifications:
-- name: Atlas.ti Basics
-  from:
-    name: Atlas.ti
-    link: https://atlasti.com/trainings/atlas-ti-in-45-minutes
-  date: September 2023
+  research:
+  - name: Atlas.ti Basics
+    from:
+      name: Atlas.ti
+      link: https://atlasti.com/trainings/atlas-ti-in-45-minutes
+    date: September 2023
 
-- name: NVivo Core Skills
-  from:
-    name: Lumivero
-    link: https://lumivero.com/academy/nvivo-core-skills-course/
-  date: March 2023
-  
-- name: "Using Stata Effectively: Data Management, Analysis, and Graphics Fundamentals"
-  from:
-    name: StataCorp LLC
-    link: https://www.stata.com/training/public/using-stata-effectively/
-  date: June 2022
-- name: Online Suicide Crisis Intervention Accreditation
-  from:
-    name: Association Québecoise de Prévention de Suicide (AQPS)
-    link: https://aqps.info/strategie-numerique/
-  date: October 2020
-- name: Provincial Suicide Crisis Intervention Accreditation
-  from:
-    name: Association Québecoise de Prévention de Suicide (AQPS)
-    link: https://www.aqps.info/
-  date: April 2020
-- name: Ethical Conduct for Research Involving Humans (TCPS 2) Certification
-  from:
-    name: Government of Canada Panel on Research Ethics
-    link: https://ethics.gc.ca/eng/policy-politique_tcps2-eptc2_2018.html
-  date: March 2018
-- name: Brain Vision PyCorder (BVP)
-  from:
-    name: TRAC Lab
-    link: https://annaweinberg8.wixsite.com/traclab
-  date: May 2018
-- name: Brain Vision Analyzer (BVA)
-  from:
-    name: TRAC Lab
-    link: https://annaweinberg8.wixsite.com/traclab
-  date: July 2018
-- name: Anxiety, Bipolar Disorder and Depression Crisis Intervention Certification
-  from:
-    name: Revivre
-    link: https://www.revivre.org/en/
-  date: October 2017
+  - name: NVivo Core Skills
+    from:
+      name: Lumivero
+      link: https://lumivero.com/academy/nvivo-core-skills-course/
+    date: March 2023
+    
+  - name: "Using Stata Effectively: Data Management, Analysis, and Graphics Fundamentals"
+    from:
+      name: StataCorp LLC
+      link: https://www.stata.com/training/public/using-stata-effectively/
+    date: June 2022
+  - name: Ethical Conduct for Research Involving Humans (TCPS 2) Certification
+    from:
+      name: Government of Canada Panel on Research Ethics
+      link: https://ethics.gc.ca/eng/policy-politique_tcps2-eptc2_2018.html
+    date: March 2018
+  - name: Brain Vision PyCorder (BVP)
+    from:
+      name: TRAC Lab
+      link: https://annaweinberg8.wixsite.com/traclab
+    date: May 2018
+  - name: Brain Vision Analyzer (BVA)
+    from:
+      name: TRAC Lab
+      link: https://annaweinberg8.wixsite.com/traclab
+    date: July 2018
+  clinical:
+  - name: Online Suicide Crisis Intervention Accreditation
+    from:
+      name: Association Québecoise de Prévention de Suicide (AQPS)
+      link: https://aqps.info/strategie-numerique/
+    date: October 2020
+  - name: Provincial Suicide Crisis Intervention Accreditation
+    from:
+      name: Association Québecoise de Prévention de Suicide (AQPS)
+      link: https://www.aqps.info/
+    date: April 2020
+  - name: Anxiety, Bipolar Disorder and Depression Crisis Intervention Certification
+    from:
+      name: Revivre
+      link: https://www.revivre.org/en/
+    date: October 2017
   
 skills:
   - name: Stata

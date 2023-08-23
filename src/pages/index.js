@@ -50,12 +50,8 @@ const IndexPage = () => (
           <h2 className="mb-5">Education</h2>
 
           {config.educationList.map((education, i) => {
-            const {
-              institution,
-              qualification,
-              description,
-              period,
-            } = education;
+            const { institution, qualification, description, period } =
+              education;
             return (
               <div
                 key={i}
@@ -153,7 +149,9 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Certifications</h2>
 
-          {config.certifications.map((cert, i) => {
+          <h3 className="mb-2">Research</h3>
+
+          {config.certifications.research.map((cert, i) => {
             const { name, from, date } = cert;
             return (
               <div
@@ -161,7 +159,30 @@ const IndexPage = () => (
                 className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
               >
                 <div className="resume-content">
-                  <h3 className="mb-0">{name}</h3>
+                  <h4 className="mb-0">{name}</h4>
+                  <div>
+                    <a href={from.link} target="_blank" rel="noreferrer">
+                      {from.name}
+                    </a>
+                  </div>
+                </div>
+                <div className="resume-date text-md-right">
+                  <span className="text-primary">{date}</span>
+                </div>
+              </div>
+            );
+          })}
+
+          <h3 className="mb-2">Clinical</h3>
+          {config.certifications.research.map((cert, i) => {
+            const { name, from, date } = cert;
+            return (
+              <div
+                key={i}
+                className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+              >
+                <div className="resume-content">
+                  <h4 className="mb-0">{name}</h4>
                   <div>
                     <a href={from.link} target="_blank" rel="noreferrer">
                       {from.name}
