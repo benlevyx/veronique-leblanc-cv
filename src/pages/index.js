@@ -94,7 +94,7 @@ const IndexPage = () => (
                 className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
               >
                 <div className="resume-content">
-                  <h3 className="mb-0">{title}</h3>
+                  <h4 className="mb-0">{title}</h4>
                   <div className="subheading mb-3">{company}</div>
                   <p>{description}</p>
                 </div>
@@ -115,7 +115,7 @@ const IndexPage = () => (
                 className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
               >
                 <div className="resume-content">
-                  <h3 className="mb-0">{title}</h3>
+                  <p className="mb-0 font-bold">{title}</p>
                   <div className="subheading mb-3">{company}</div>
                   <p>{description}</p>
                 </div>
@@ -136,7 +136,7 @@ const IndexPage = () => (
                 className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
               >
                 <div className="resume-content">
-                  <h3 className="mb-0">{title}</h3>
+                  <h4 className="mb-0">{title}</h4>
                   <div className="subheading mb-3">{company}</div>
                   <p>{description}</p>
                 </div>
