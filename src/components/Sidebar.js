@@ -1,22 +1,22 @@
-import React, { Component } from 'react';
-import Scrollspy from 'react-scrollspy';
-import Scroll from './Scroll';
+import React, { Component } from "react";
+import Scrollspy from "react-scrollspy";
+import Scroll from "./Scroll";
 
-import avatar from '../../uploads/main_photo.jpg';
-import backgroundImage from '../../uploads/sidebar-background.png';
-import config from '../../config';
+import avatar from "../../uploads/main_photo.jpg";
+import backgroundImage from "../../uploads/sidebar-background.png";
+import config from "../../config";
 
 export class Sidebar extends Component {
   constructor(props) {
     super(props);
     this.state = {
       tabs: [
-        { content: 'About', href: 'about' },
-        { content: 'Experience', href: 'experience' },
-        { content: 'Education', href: 'education' },
-        { content: 'Certifications', href: 'certifications' },
-        { content: 'Languages', href: 'languages'},
-        { content: 'Skills', href: 'skills' }
+        { content: "About", href: "about" },
+        { content: "Education", href: "education" },
+        { content: "Experience", href: "experience" },
+        { content: "Certifications", href: "certifications" },
+        { content: "Languages", href: "languages" },
+        { content: "Skills", href: "skills" },
       ],
     };
   }
@@ -28,7 +28,7 @@ export class Sidebar extends Component {
         className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
         id="sideNav"
         style={{
-          backgroundImage: `url(${backgroundImage})`
+          backgroundImage: `url(${backgroundImage})`,
         }}
       >
         <a className="navbar-brand" href="#page-top">
@@ -66,10 +66,7 @@ export class Sidebar extends Component {
               return (
                 <li className="nav-item" key={href}>
                   <Scroll type="id" element={href}>
-                    <a
-                        className="nav-link"
-                        href={`#${href}`}
-                    >
+                    <a className="nav-link" href={`#${href}`}>
                       {content}
                     </a>
                   </Scroll>
