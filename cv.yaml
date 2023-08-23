@@ -21,7 +21,7 @@ researchAndTeaching:
     description: description
     # ... Add more as necessary
 publicationsAndConferences:
-  - title: Leblanc, V, Mitchell, KJ et al (in progress). A Deeper Look Into the Wellbeing of Sexual and Gender Minority Youth Exposed to Self-Directed Violence: Insights into Future Prevention.
+  - title: "Leblanc, V, Mitchell, KJ et al (in progress). A Deeper Look Into the Wellbeing of Sexual and Gender Minority Youth Exposed to Self-Directed Violence: Insights into Future Prevention."
     company: company
     description: description
   - title: Leblanc, V, Mitchell, KJ et al (in progress). Bystander Mental Health Outcomes Across Levels of Suicide Attempt Exposure Severity.
@@ -95,7 +95,7 @@ certifications:
 - name: Atlas.ti Basics
   from:
     name: Atlas.ti
-    link:https://atlasti.com/trainings/atlas-ti-in-45-minutes
+    link: https://atlasti.com/trainings/atlas-ti-in-45-minutes
   date: September 2023
 
 - name: NVivo Core Skills
@@ -104,7 +104,7 @@ certifications:
     link: https://lumivero.com/academy/nvivo-core-skills-course/
   date: March 2023
   
-  - name: Using Stata Effectively: Data Management, Analysis, and Graphics Fundamentals
+  - name: "Using Stata Effectively: Data Management, Analysis, and Graphics Fundamentals"
   from:
     name: StataCorp LLC
     link: https://www.stata.com/training/public/using-stata-effectively/
