@@ -129,8 +129,14 @@ certifications:
     from:
       name: Atlas.ti
       link: https://atlasti.com/trainings/atlas-ti-in-45-minutes
-    date: September 2023
+    date: September 2023 (upcoming)
 
+  - name: Generative AI Fundamentals
+    from:
+      name: Google
+      link: https://www.cloudskillsboost.google/course_templates/556
+    date: August 2023
+    
   - name: NVivo Core Skills
     from:
       name: Lumivero
