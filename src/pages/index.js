@@ -119,7 +119,7 @@ const IndexPage = () => (
           })}
 
           <h4 className="mb-2">Reviewing</h4>
-          {config.academicWorks.publications.map((experience, i) => {
+          {config.academicWorks.reviewing.map((experience, i) => {
             const { title } = experience;
             return (
               <div
@@ -204,7 +204,7 @@ const IndexPage = () => (
           })}
 
           <h3 className="mb-2">Clinical</h3>
-          {config.certifications.research.map((cert, i) => {
+          {config.certifications.clinical.map((cert, i) => {
             const { name, from, date } = cert;
             return (
               <div
