@@ -3,7 +3,7 @@ firstName: Véronique
 lastName: Leblanc
 phoneNumber: ''
 address: ''
-email: veronique-leblanc@live.edu
+email: veronique-leblanc@live.ca
 socialLinks:
 - icon: fa-linkedin-in
   name: LinkedIn
@@ -22,7 +22,7 @@ researchAndTeaching:
     period: 2022 - Present
   - title: Research Student
     company: Boston University Center for Psychiatric Rehabilitation - Boston University (BU)
-    description: description
+    description: Worked on a secondary analysis of an RCT sample with severe mental illness and PTSD, focusing on different dimensions and correlations with suicide in the sample. This project served as my graduate thesis, and answered the following questions: How does this form of CBT impact suicidality? What is the relationship between PTSD and other forms of symptom severity and suicidality? How does suicidality impact treatment engagement? 
     period: 2021 - 2022
   - title: Research Student
     company: Sheldon Memory Laboratory - McGill University
@@ -157,6 +157,7 @@ certifications:
       name: TRAC Lab
       link: https://annaweinberg8.wixsite.com/traclab
     date: July 2018
+    
   clinical:
   - name: Online Suicide Crisis Intervention Accreditation
     from:
