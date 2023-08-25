@@ -170,16 +170,36 @@ certifications:
       name: Association Québecoise de Prévention de Suicide (AQPS)
       link: https://aqps.info/strategie-numerique/
     date: October 2020
+    
   - name: Provincial Suicide Crisis Intervention Accreditation
     from:
       name: Association Québecoise de Prévention de Suicide (AQPS)
       link: https://www.aqps.info/
     date: April 2020
+
+  - name: Crisis Training Certification
+    from:
+      name: Suicide Prevention Centre of Montreal (SPCM)
+      link: https://cpsmontreal.ca/en/trainings/
+    date: October 2019
+
+  - name: Trauma and Violence Informed Care (TVIC)
+    from:
+      name: EQUIP Health
+      link: https://equiphealthcare.ca/tvic-workshop/
+    date: March 2019
+    
   - name: Anxiety, Bipolar Disorder and Depression Crisis Intervention Certification
     from:
       name: Revivre
       link: https://www.revivre.org/en/
     date: October 2017
+
+  - name: Suicide Crisis Intervention Certification
+    from:
+      name: Suicide Prevention Centre of Montreal (SPCM)
+      link: https://cpsmontreal.ca/en/trainings/
+    date: April 2017
   
 skills:
   - name: Stata
